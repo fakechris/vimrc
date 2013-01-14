@@ -61,6 +61,7 @@ map nt :NERDTreeToggle<cr>
 let g:tagbar_usearrows = 1
 
 nnoremap <leader>l :TagbarToggle<CR>
+map tt :TagbarToggle<cr>
 
 "let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 "let Tlist_Show_One_File=1
@@ -92,3 +93,9 @@ set backupskip=/tmp/*,/private/tmp/*
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bundle/closetag.vim/plugin/closetag.vim
 
+"set background=dark
+"let g:solarized_termtrans=1
+"let g:solarized_termcolors=256
+"let g:solarized_contrast="high"
+"let g:solarized_visibility="high"
+"colorscheme solarized
