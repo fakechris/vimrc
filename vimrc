@@ -18,6 +18,7 @@ set fileencodings=utf-8
 set langmenu=zh_CN.UTF-8
 
 set incsearch
+set showmatch
 
 "set nowrap
 set expandtab
