@@ -6,8 +6,8 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
-let g:jedi#popup_on_dot = 0
-let g:jedi#autocompletion_command = "<C-l>"
+"let g:jedi#popup_on_dot = 0
+"let g:jedi#autocompletion_command = "<C-l>"
 
 set encoding=utf-8
 set termencoding=utf-8
