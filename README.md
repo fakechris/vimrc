@@ -1,4 +1,8 @@
 
+### depends
+ * apt-get install ctags
+ * easy_install pyflakes jedi
+
 ### usage
 	ln -s vimrc/vimrc ~/.vimrc
 	ln -s vimrc ~/.vim
