@@ -1,3 +1,12 @@
 [submodule "jedi"]
 	path = bundle/jedi-vim/jedi
 	url = git://github.com/davidhalter/jedi.git
+[submodule "vendor/vimball"]
+    path = bundle/command-t/vendor/vimball
+    url = git://github.com/tomtom/vimball.rb.git
+[submodule "vendor/vimscriptuploader"]
+    path = bundle/command-t/vendor/vimscriptuploader
+    url = git://github.com/tomtom/vimscriptuploader.rb.git
+[submodule "ftplugin/python/pyflakes"]
+    path = bundle/pyflakes-vim/ftplugin/python/pyflakes
+    url = git://github.com/pyflakes/pyflakes.git
