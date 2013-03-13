@@ -30,6 +30,8 @@ set backspace=eol,start,indent
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%04l,%04v][%p%%]
 set laststatus=2
 
+set mouse=a
+
 " reselect visual block after indent/outdent
 vnoremap < <gv
 vnoremap > >gv
@@ -93,6 +95,10 @@ set backupskip=/tmp/*,/private/tmp/*
 
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bundle/closetag.vim/plugin/closetag.vim
+
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+"map <A-\> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+map <2-LeftMouse> <C-LeftMouse>
 
 "set background=dark
 "let g:solarized_termtrans=1
