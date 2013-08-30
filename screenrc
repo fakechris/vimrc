@@ -1,0 +1,22 @@
+#charset GBK
+vbell off
+bindkey -k k1 select 0
+bindkey -k k2 select 1
+bindkey -k k3 select 2
+bindkey -k k4 select 3
+bindkey -k k5 select 4
+bindkey -k k6 select 5
+bindkey -k k7 select 6
+bindkey -k k8 select 7
+
+defscrollback 10000
+
+setenv SSH_AUTH_SOCK "/tmp/ssh-agent-$USER-screen"
+
+hardstatus on
+hardstatus alwayslastline
+#hardstatus string "%{.bW}%-w%{.rY}%n %t%{-}%+w %=%{..G} %H(%l) %{..Y} %Y/%m/%d %c:%s "
+#hardstatus string "%{= kG}[%{G}%H%{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}]"
+hardstatus string "%{= kG}[%{G}%H%{g}][ %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%? %{g}]"
+
+

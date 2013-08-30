@@ -1,0 +1,17 @@
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+#"e[1~": beginning-of-line # home 
+#"e[2~": insert-last-argument # insert 
+#"e[3~": delete-char # delete 
+#"e[4~": end-of-line # end 
+#"e[5~": backward-kill-word # page up 
+#"e[6~": kill-word # page down "]]]]]]"
+
+#set editing-mode vi
+set show-all-if-ambiguous on
+set completion-ignore-case on
+set meta-flag on
+set convert-meta off
+set output-meta on
+set bell-style visible
